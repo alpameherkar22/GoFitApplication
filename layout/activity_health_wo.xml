@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.main.HealthWo" android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/banner"
+        android:src="@drawable/colow"
+        android:background="#ffffff"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/banner"
+        android:background="@color/colorPrimary" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:id="@+id/rlay"
+        android:layout_below="@+id/banner">
+
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Healthy eating and women"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/qt1"/>
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="The food and drink choices you make every day affect your health now and later in life. Choosing healthy foods and drinks more often can help prevent or manage many health problems that affect women. And studies show that when a woman eats healthy, everyone in her household is more likely to eat healthy.1,2"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:layout_below="@+id/qt1"
+        android:fontFamily="serif"
+        android:id="@+id/q1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q1"
+        android:text="Some of commonly raised questions."
+        android:fontFamily="@font/colablig"
+        android:textColor="#222222"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/que"
+        />
+        <View
+            android:layout_width="290dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/que"
+            android:layout_marginLeft="20dp"
+            android:background="#222222" />
+    </RelativeLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/rlay"
+        android:background="@color/colorPrimary" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="BACK"
+        android:fontFamily="@font/colablig"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/buttonselector"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/back"
+        android:background="@drawable/buttonselector"
+        android:text="CONTACT US"
+        android:fontFamily="@font/colablig"
+        android:textColor="#696969"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/feather" />
+</RelativeLayout>

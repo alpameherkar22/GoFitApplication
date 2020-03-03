@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gofit">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gofit"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gofit"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".absvideos.Vid12"></activity>
+        <activity android:name=".absvideos.Vid11" />
+        <activity android:name=".absvideos.Vid10" />
+        <activity android:name=".absvideos.Vid9" />
+        <activity android:name=".absvideos.Vid8" />
+        <activity android:name=".absvideos.Vid7" />
+        <activity android:name=".absvideos.Vid6" />
+        <activity android:name=".absvideos.Vid5" />
+        <activity android:name=".absvideos.Vid4" />
+        <activity android:name=".absvideos.Vid3" />
+        <activity android:name=".absvideos.Vid2" />
+        <activity android:name=".absvideos.Vid1" />
+        <activity android:name=".Admin" />
+        <activity android:name=".login.main.products.Pro26" />
+        <activity android:name=".login.main.products.Pro25" />
+        <activity android:name=".login.main.products.Pro24" />
+        <activity android:name=".login.main.products.Pro23" />
+        <activity android:name=".login.main.products.Pro22" />
+        <activity android:name=".login.main.products.Pro21" />
+        <activity android:name=".login.main.products.Pro19" />
+        <activity android:name=".login.main.products.Pro18" />
+        <activity android:name=".login.main.products.Pro17" />
+        <activity android:name=".login.main.products.Pro20" />
+        <activity android:name=".login.main.products.Pro16" />
+        <activity android:name=".login.main.products.Pro15" />
+        <activity android:name=".login.main.products.Pro14" />
+        <activity android:name=".login.main.products.Pro13" />
+        <activity android:name=".login.main.products.Pro12" />
+        <activity android:name=".login.main.products.Pro11" />
+        <activity android:name=".login.main.products.Pro10" />
+        <activity android:name=".login.main.products.Pro9" />
+        <activity android:name=".login.main.products.Pro8" />
+        <activity android:name=".login.main.products.Pro7" />
+        <activity android:name=".login.main.products.Pro6" />
+        <activity android:name=".login.main.products.Pro5" />
+        <activity android:name=".login.main.products.Pro4" />
+        <activity android:name=".login.main.products.Pro3" />
+        <activity android:name=".login.main.products.Pro1" />
+        <activity android:name=".login.main.products.Pro2" />
+        <activity
+            android:name=".login.main.Buypro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.Contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.Stretches"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.FullBody"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.Arm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.Legs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.Abs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.HomeWorkout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.Ques"
+            android:label="@string/title_activity_ques"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.HealthWo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.Yoga"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.main.EatHealthy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".database.DatabaseActivity" />
+        <activity
+            android:name=".login.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="GoFit"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="Login" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
+</manifest>

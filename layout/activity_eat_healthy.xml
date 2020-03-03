@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.main.EatHealthy"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/banner"
+        android:src="@drawable/colow"
+        android:background="#ffffff"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/banner"
+        android:background="@color/colorPrimary" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"
+        android:background="@drawable/background"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="2dp"
+        android:id="@+id/rlay">
+        <ScrollView
+            android:layout_width="370dp"
+            android:layout_height="550dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/but">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t2"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:text="Your food choices each day affect your health — how you feel today, tomorrow, and in the future.
+
+Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases (like heart disease and cancer), and promote your overall health."/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t2"
+
+                android:fontFamily="serif"
+                android:textSize="30sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="The Impact of Nutrition on Your Health"
+                android:textStyle="bold"
+                android:id="@+id/t3"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/titilliumsemiboldupright"
+        android:text="Unhealthy eating habits have contributed to the obesity epidemic in the United States: about one-third of U.S. adults (33.8%) are obese and approximately 17% (or 12.5 million) of children and adolescents aged 2—19 years are obese.1 Even for people at a healthy weight, a poor diet is associated with major health risks that can cause illness and even death. These include heart disease, hypertension (high blood pressure), type 2 diabetes, osteoporosis, and certain types of cancer. By making smart food choices, you can help protect yourself from these health problems.
+
+The risk factors for adult chronic diseases, like hypertension and type 2 diabetes, are increasingly seen in younger ages, often a result of unhealthy eating habits and increased weight gain. Dietary habits established in childhood often carry into adulthood, so teaching children how to eat healthy at a young age will help them stay healthy throughout their life.
+
+The link between good nutrition and healthy weight, reduced chronic disease risk, and overall health is too important to ignore. By taking steps to eat healthy, you'll be on your way to getting the nutrients your body needs to stay healthy, active, and strong. As with physical activity, making small changes in your diet can go a long way, and it's easier than you think!"
+            android:id="@+id/t4"
+            />
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+
+
+</RelativeLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/rlay"
+        android:background="@color/colorPrimary" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="BACK"
+        android:fontFamily="@font/colablig"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/buttonselector"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/back"
+        android:background="@drawable/buttonselector"
+        android:text="CONTACT US"
+        android:fontFamily="@font/colablig"
+        android:textColor="#696969"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/fea"
+        android:background="@drawable/feather" />
+</RelativeLayout>

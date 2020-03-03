@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text=" Welcome "
+        android:textSize="50sp"
+        android:textColor="#ff9980"
+        android:fontFamily="@font/pacifico"
+        android:id="@+id/weltextz"/>
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="411dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/weltextz"
+        android:id="@+id/loglay">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="411dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logg"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:id="@+id/logbox"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:text="Provide Admin passcode"
+            android:textSize="30sp"
+            android:textColor="#ff9980"
+            android:fontFamily="@font/pacifico" />
+<EditText
+    android:layout_width="180dp"
+    android:layout_height="30dp"
+    android:id="@+id/ad"
+    android:layout_centerInParent="true"
+    android:background="#ffffff"
+    android:hint="Type passcode here"
+    android:textSize="10sp"
+    android:fontFamily="serif"
+    android:inputType="textPassword"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ad"
+            android:id="@+id/ok"
+            android:text="OK"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/colablig"
+            android:textSize="20dp"
+            android:textColor="#696969"
+            android:background="@drawable/buttonselector"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/fea"
+        android:background="@drawable/feather" />
+</RelativeLayout>

@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.main.Buypro"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/banner"
+        android:src="@drawable/colow"
+        android:background="#ffffff"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/banner"
+        android:background="@color/colorPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:id="@+id/scrollable"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="3dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:background="#ffffff">
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product1"
+                android:id="@+id/p1"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="V-Sweat 2,079.66 INR"
+                android:layout_below="@+id/p1"/>
+
+            <ImageView
+                android:id="@+id/p2"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/p1"
+                android:src="@drawable/product2" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:textAlignment="center"
+                android:layout_marginLeft="100dp"
+                android:text="Swim-slim 2868.50 INR"
+                android:layout_toRightOf="@+id/t1"
+                android:layout_below="@+id/p2"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t1"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product3"
+                android:id="@+id/p3"
+                android:layout_below="@+id/t1"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t3"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="V-Body 4661.31 INR"
+                android:layout_below="@+id/p3"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/product4"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/p3"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/p4"
+                android:layout_below="@+id/t2"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t4"
+                android:layout_marginLeft="120dp"
+                android:textAlignment="center"
+                android:text="Gel-V Mini 2,079.66 INR"
+                android:layout_toRightOf="@+id/t3"
+                android:layout_below="@+id/p4"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t3"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product5"
+                android:id="@+id/p5"
+                android:layout_below="@+id/t3"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t5"
+                android:layout_marginLeft="40dp"
+                android:textAlignment="center"
+                android:text="V-Sweat Arms 1505.25 INR"
+                android:layout_below="@+id/p5"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/product6"
+                android:layout_toRightOf="@+id/p5"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/p6"
+                android:layout_below="@+id/t4"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t6"
+                android:layout_marginLeft="120dp"
+                android:textAlignment="center"
+                android:text="V-Sweat Thighs 1863.81 INR"
+                android:layout_toRightOf="@+id/t5"
+                android:layout_below="@+id/p6"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t5"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product7"
+                android:id="@+id/p7"
+                android:layout_below="@+id/t5"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t7"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="V-Belt 2.0 3944.19 INR"
+                android:layout_below="@+id/p7"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/product8"
+                android:layout_toRightOf="@+id/p7"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/p8"
+                android:layout_below="@+id/t6"/>
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t8"
+                android:layout_marginLeft="110dp"
+                android:textAlignment="center"
+                android:text="Trim-V  3584.91 INR"
+                android:layout_toRightOf="@+id/t7"
+                android:layout_below="@+id/p8"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t7"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product9"
+                android:id="@+id/p9"
+                android:layout_below="@+id/t7"/>
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t9"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="V-Vest 4661.31 INR"
+                android:layout_below="@+id/p9"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/product15"
+                android:layout_toRightOf="@+id/p9"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/t8"
+                android:id="@+id/p10"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t10"
+                android:layout_marginLeft="90dp"
+                android:textAlignment="center"
+                android:text="SugarBearHair Vitamins' 716.41 INR"
+                android:layout_toRightOf="@+id/t9"
+                android:layout_below="@+id/p10"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t9"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product14"
+                android:layout_below="@+id/t9"
+                android:id="@+id/p11"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t11"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:text="SugarBearHair WomenMulti' 716.41 INR"
+                android:layout_below="@+id/p11"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/product12"
+                android:layout_toRightOf="@+id/p11"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/t10"
+                android:id="@+id/p12"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="center"
+                android:text="SugarBear Sleep Vitamins' 716.41 INR"
+                android:layout_toRightOf="@+id/t11"
+                android:layout_below="@+id/p12"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t11"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product16"
+                android:layout_below="@+id/t11"
+                android:id="@+id/p13"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t13"
+                android:layout_marginLeft="20dp"
+                android:textAlignment="center"
+                android:text="SugarBear Trio pack 5736.28 INR"
+                android:layout_below="@+id/p13"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/product18"
+                android:layout_toRightOf="@+id/p13"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/t12"
+                android:id="@+id/p14"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t14"
+                android:layout_marginLeft="100dp"
+                android:textAlignment="center"
+                android:text="Dumbell 3kg 999 INR"
+                android:layout_toRightOf="@+id/t13"
+                android:layout_below="@+id/p14"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t13"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/t13"
+                android:src="@drawable/product19"
+                android:id="@+id/p15"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t15"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="Dumbell 5kg 1,699 INR"
+                android:layout_below="@+id/p15"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t14"
+                android:src="@drawable/product20"
+                android:layout_toRightOf="@+id/p15"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/p16"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t16"
+                android:layout_marginLeft="140dp"
+                android:textAlignment="center"
+                android:text="Dumbell 1kg 349 INR"
+                android:layout_toRightOf="@+id/t15"
+                android:layout_below="@+id/p16"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t15"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product33"
+                android:layout_below="@+id/t15"
+                android:id="@+id/p17"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t17"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="Dumbell 1.5kg 499 INR"
+                android:layout_below="@+id/p17"/>
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t16"
+                android:src="@drawable/product21"
+                android:layout_toRightOf="@+id/p17"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/p18"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t18"
+                android:layout_marginLeft="120dp"
+                android:textAlignment="center"
+                android:text="V-eauty Sleep 3944.19 INR"
+                android:layout_toRightOf="@+id/t17"
+                android:layout_below="@+id/p18"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t17"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_below="@+id/t17"
+                android:layout_marginTop="10dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product24"
+                android:id="@+id/p19"/>
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t19"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="Butt Lift 3227.06 INR"
+                android:layout_below="@+id/p19"/>
+
+            <ImageView
+                android:id="@+id/p20"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_below="@+id/t18"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="27dp"
+                android:layout_toRightOf="@+id/p19"
+                android:src="@drawable/product26" />
+
+            <TextView
+                android:id="@+id/t20"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p20"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="-3dp"
+                android:layout_toRightOf="@+id/t19"
+                android:text="V-Tox 1863.81 INR"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t19"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t19"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product27"
+                android:id="@+id/p21"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t21"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="Gel-V Hot Mini 1956.42 INR"
+                android:layout_below="@+id/p21"/>
+
+            <ImageView
+                android:id="@+id/p22"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_below="@+id/t20"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="28dp"
+                android:layout_toRightOf="@+id/p21"
+                android:src="@drawable/product28" />
+
+            <TextView
+                android:id="@+id/t22"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p22"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="-10dp"
+                android:layout_toRightOf="@+id/t21"
+                android:text="Firming/Reduction System 6883.68 INR"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t21"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t21"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product29"
+                android:id="@+id/p23"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t23"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="center"
+                android:text="Gel-V 3584.91 INR"
+                android:layout_below="@+id/p23"/>
+
+            <ImageView
+                android:id="@+id/p24"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_below="@+id/t22"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/p23"
+                android:src="@drawable/product30" />
+
+            <TextView
+                android:id="@+id/t24"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/p24"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="-8dp"
+                android:layout_toRightOf="@+id/t23"
+                android:text="V-Glow 1433.53 INR"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/t23"
+                android:background="@color/colorPrimary" />
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t23"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/product31"
+                android:id="@+id/p25"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t25"
+                android:layout_marginLeft="60dp"
+                android:textAlignment="center"
+                android:text="Gel-V Hot 2867.78 INR"
+                android:layout_below="@+id/p25"/>
+
+            <ImageView
+                android:id="@+id/p26"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_below="@+id/t24"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/p25"
+                android:src="@drawable/product34" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t26"
+                android:layout_marginLeft="80dp"
+                android:textAlignment="center"
+                android:text="Vanna Belt Leggings 3943.47 INR"
+                android:layout_toRightOf="@+id/t25"
+                android:layout_below="@+id/p25"/>
+
+        </RelativeLayout>
+    </ScrollView>
+ <View
+     android:layout_width="2dp"
+     android:layout_height="481dp"
+     android:layout_marginTop="150dp"
+     android:layout_centerHorizontal="true"
+     android:background="@color/colorPrimary"
+     />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/scrollable"
+        android:background="@color/colorPrimary" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="BACK"
+        android:fontFamily="@font/colablig"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/buttonselector"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/back"
+        android:background="@drawable/buttonselector"
+        android:text="CONTACT US"
+        android:fontFamily="@font/colablig"
+        android:textColor="#696969"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/fea"
+        android:background="@drawable/feather" />
+
+</RelativeLayout>

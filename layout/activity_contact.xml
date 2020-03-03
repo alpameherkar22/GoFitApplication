@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.main.Contact"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/banner"
+        android:src="@drawable/colow"
+        android:background="#ffffff"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/banner"
+        android:background="@color/colorPrimary" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gmail"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="20dp"
+        android:id="@+id/gmail"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gmail"
+        android:layout_below="@+id/banner"
+        android:layout_marginLeft="15dp"
+        android:textSize="19dp"
+        android:text="gofit221199@gmail.com"
+        android:id="@+id/t1"
+        android:autoLink="email"
+        android:linksClickable="true"
+        android:layout_marginTop="50dp"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/watapp"
+        android:layout_below="@+id/gmail"
+        android:layout_marginTop="20dp"
+        android:id="@+id/wa"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/wa"
+        android:layout_below="@+id/gmail"
+        android:id="@+id/t2"
+        android:textSize="19dp"
+        android:layout_marginLeft="10dp"
+        android:text="8446411886"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Contact Us:"
+        android:textSize="22dp"
+        android:fontFamily="@font/colablig"
+        android:layout_below="@+id/wa"/>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="By sending mail Whatsapp us           or Call us"
+        android:textSize="19dp"
+        android:fontFamily="@font/colablig"
+        android:layout_below="@+id/text0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="19dp"
+        android:text="To contact our advisor you can mail or message us ''GFTAD023''"
+        android:id="@+id/text2"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/colablig"
+        android:layout_below="@+id/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="19dp"
+        android:id="@+id/text4"
+        android:text="To ask about products mail or message us ''GFINFO*(your product name)''              example: GFINFO*V-Glow"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/colablig"
+        android:layout_below="@+id/text2"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/text4"
+        android:background="@color/colorPrimary" />
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/back"
+        android:layout_below="@+id/text4"
+        android:background="@drawable/buttonselector"
+        android:text="GO TO MAIN PAGE"
+        android:fontFamily="@font/colablig"
+        android:textColor="#696969"
+        android:textSize="17dp" />
+
+</RelativeLayout>

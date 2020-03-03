@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.main.Buypro"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/banner"
+        android:src="@drawable/colow"
+        android:background="#ffffff"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/banner"
+        android:background="@color/colorPrimary" />
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="255dp"
+        android:layout_centerInParent="true"
+        android:background="#696969"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="253dp"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        android:id="@+id/p2"
+        android:src="@drawable/product18"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"
+        android:text="Dumbell 3kg 999 INR"
+        android:layout_below="@+id/p2"/>
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/p14"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"
+            android:textColorLink="#696969"
+            android:id="@+id/t1"/>
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_above="@+id/fea"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="BACK"
+        android:fontFamily="@font/colablig"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/buttonselector"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/back"
+        android:background="@drawable/buttonselector"
+        android:text="CONTACT US"
+        android:fontFamily="@font/colablig"
+        android:textColor="#696969"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/fea"
+        android:background="@drawable/feather" />
+</RelativeLayout>

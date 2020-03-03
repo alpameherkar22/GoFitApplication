@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.main.HomeWorkout"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/banner"
+        android:src="@drawable/colow"
+        android:background="#ffffff"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/banner"
+        android:background="@color/colorPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/banner"
+        android:id="@+id/rlay">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="480dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff9980"
+        android:text="Flat abs / Sixpack abs  Workout"
+        android:textStyle="bold"
+        android:fontFamily="@font/oswaldstencil"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:id="@+id/t1"
+        />
+    <View
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimaryDark" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_below="@+id/t1"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/r1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l1"
+                    android:text="This workout focuses on reducing the belly fats. Belly flats are fats present in the abdomial portion of body."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l2"
+                    android:layout_below="@+id/l1"
+                    android:text="Types of ab workouts:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l3"
+                    android:layout_below="@+id/l2"
+                    android:text="Upper ab workouts- For fats in upper abdomen area. "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l4"
+                    android:layout_below="@+id/l3"
+                    android:text="Lower ab workouts- For fats in lower abdomen area."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l5"
+                    android:layout_below="@+id/l4"
+                    android:text="Love handles/Obliques/Corset- Fot fats stored in torso area and for giving perfect figured waistline."/>
+
+            </RelativeLayout>
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leg / Glutes  Workout"
+        android:textColor="#ff9980"
+        android:textStyle="bold"
+        android:fontFamily="@font/oswaldstencil"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/r1"
+        android:id="@+id/t2"/>
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/t2"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimaryDark" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_below="@+id/t2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/r2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l6"
+                    android:text="This workout focuses on lower portion of body."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l7"
+                    android:layout_below="@+id/l6"
+                    android:text="Types of lower body workouts:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l8"
+                    android:layout_below="@+id/l7"
+                    android:text="Legs workouts- Focuses on whole leg"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l9"
+                    android:layout_below="@+id/l8"
+                    android:text="Glutes workouts- For butt lifting and for having round booty."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l10"
+                    android:layout_below="@+id/l9"
+                    android:text="Quads- Focuses on thighs and thigh gap."/>
+
+
+
+            </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slender Arm Workout"
+        android:textColor="#ff9980"
+        android:textStyle="bold"
+        android:fontFamily="@font/oswaldstencil"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/r2"
+        android:id="@+id/t3"/>
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/t3"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimaryDark" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_below="@+id/t3"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/r3">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff9980"
+                android:fontFamily="@font/titilliumsemiboldupright"
+                android:textSize="25sp"
+                android:id="@+id/l11"
+                android:text="This workout focuses on arms. These type of workouts remove or reduce fat stored near arms, giving it a slender and beautiful structure."/>
+        </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full  Body  workouts"
+        android:textColor="#ff9980"
+        android:textStyle="bold"
+        android:fontFamily="@font/oswaldstencil"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/r3"
+        android:id="@+id/t4"/>
+    <View
+        android:layout_width="225dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/t4"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimaryDark" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_below="@+id/t4"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/r4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l12"
+                    android:text="This workout focuses on every part of the body, helping to reduce fats and weight loss.This workout provide  strength and healthy muscles overall the body."
+/>            </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stretching"
+        android:textColor="#ff9980"
+        android:textStyle="bold"
+        android:fontFamily="@font/oswaldstencil"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/r4"
+        android:id="@+id/t5"/>
+    <View
+        android:layout_width="125dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/t5"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimaryDark" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_below="@+id/t5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/r5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff9980"
+                    android:fontFamily="@font/titilliumsemiboldupright"
+                    android:textSize="25sp"
+                    android:id="@+id/l13"
+                    android:text="Stretching is yoga. It helps make body flexible and provide good blood circulation for body making an individual feel fresh and new."/>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/feather" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="BACK"
+        android:fontFamily="@font/colablig"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/buttonselector"
+        android:layout_alignParentBottom="true"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@+id/rlay"
+        android:background="@color/colorPrimary" />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/back"
+        android:background="@drawable/buttonselector"
+        android:text="CONTACT US"
+        android:fontFamily="@font/colablig"
+        android:textColor="#696969"
+        android:textSize="17dp" />
+
+</RelativeLayout>

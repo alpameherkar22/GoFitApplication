@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".login.LoginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text=" Welcome "
+        android:textSize="50sp"
+        android:textColor="#ff9980"
+        android:fontFamily="@font/pacifico"
+        android:id="@+id/weltextz"/>
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="411dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/weltextz"
+        android:id="@+id/loglay">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="411dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logg"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:id="@+id/logbox"/>
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/textbox"
+            android:minWidth="0dp"
+            android:minHeight="0dp"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Login to continue !"
+            android:textSize="30sp"
+            android:textColor="#ff9980"
+            android:fontFamily="@font/pacifico" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Email"
+            android:textColor="#ff9980"
+            android:fontFamily="@font/kaushanscriptregular"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:text="Password"
+            android:textColor="#ff9980"
+            android:fontFamily="@font/kaushanscriptregular"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            />
+
+
+    <EditText
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="95dp"
+        android:textColor="#ff9980"
+        android:textSize="10sp"
+        android:fontFamily="serif"
+        android:hint="Type your email address"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email">
+
+    </EditText>
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/textbox"
+            android:minWidth="0dp"
+            android:minHeight="0dp"></ImageView>
+    <EditText
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#ff9980"
+        android:hint="Type your password"
+        android:textSize="10sp"
+        android:fontFamily="serif"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:id="@+id/password">
+    </EditText>
+
+
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:background="@drawable/loginselector"
+        android:id="@+id/logbtn"
+        />
+
+
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:background="@drawable/viewuserselector"
+            android:id="@+id/viewuserbtn"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/fea"
+        android:background="@drawable/feather" />
+</RelativeLayout>
